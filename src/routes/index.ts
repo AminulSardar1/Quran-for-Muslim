@@ -56,6 +56,14 @@ const routes: RouteRecordRaw[] = [
         }
     },
     {
+        path: "/admin",
+        name: "admin",
+        component: () => import("@/views/Admin/Index"),
+        meta: {
+            title: "Admin"
+        }
+    },
+    {
         path: "/:catchAll(.*)",
         component: () => import("@/views/Error/PageNotFound"),
         meta: {

@@ -11,6 +11,7 @@ import {
     faBookOpen,
     faBookQuran,
     faBookmark,
+    faBuilding,
     faCaretDown,
     faCaretLeft,
     faCaretRight,
@@ -20,6 +21,7 @@ import {
     faCirclePlay,
     faCity,
     faClockRotateLeft,
+    faCode,
     faCopy,
     faDownload,
     faEllipsisVertical,
@@ -37,10 +39,12 @@ import {
     faMinus,
     faMobileScreen,
     faMoon,
+    faPhone,
     faPlay,
     faPlus,
     faRepeat,
     faSearch,
+    faShieldHalved,
     faSliders,
     faSpinner,
     faStar,
@@ -50,6 +54,11 @@ import {
     faTrash,
     faUser
 } from "@fortawesome/free-solid-svg-icons";
+import {
+    faFacebookF,
+    faWhatsapp,
+    faTelegram
+} from "@fortawesome/free-brands-svg-icons";
 
 library.add(
     faSliders,
@@ -100,7 +109,14 @@ library.add(
     faClockRotateLeft,
     faMobileScreen,
     faBarsStaggered,
-    faEye
+    faEye,
+    faBuilding,
+    faShieldHalved,
+    faCode,
+    faPhone,
+    faFacebookF,
+    faWhatsapp,
+    faTelegram
 );
 
 export default {

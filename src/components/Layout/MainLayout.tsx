@@ -18,6 +18,11 @@ const SIDBAR_MENU: Array<{ icon: string, label: string, route: string }> = [
         icon: "/assets/svg/clock.svg",
         label: "general.prayer-schedule",
         route: "prayer-schedule"
+    },
+    {
+        icon: "/assets/svg/admin.svg",
+        label: "general.admin",
+        route: "admin"
     }
 ]
 
