@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <a href="https://lumine-quranku.vercel.app" target="_blank">
+    <a href="https://quran-for-muslim.vercel.app" target="_blank">
         👁️ Demo
     </a>
 </p>
@@ -26,12 +26,12 @@
 - ![info surah](/screenshot/info-surah.png)
 
 ## 🖇️ Sumber Data
-- [https://quran.api-docs.io](https://quran.api-docs.io)
+- [https://quran-for-muslim.vercel.app](https://quran-for-muslim.vercel.app/)
 
 ## 💻 Instalasi
 ```sh
-git clone https://github.com/LumineID/quranku
-cd quranku
+git clone https://github.com/AminulSardar1/Quran-for-Muslim
+cd Quran-for-Muslim
 yarn
 
 # development
@@ -46,7 +46,7 @@ yarn preview
 
 <hr>
 <div align="center">
-    <a href="https://trakteer.id/lumine_id?open=true" target="_blank">
+    <a href="https://quran-for-muslim.vercel.app/" target="_blank">
         <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Belikan saya Kopi" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;">
     </a>
 </div>
