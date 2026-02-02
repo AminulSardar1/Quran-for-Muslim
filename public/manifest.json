@@ -1,7 +1,7 @@
 {
-    "name": "Quran Ku",
-    "short_name": "Quran Ku",
-    "description": "Quran ku adalah aplikasi Al-Qur`an online sumber terbuka. Baca dan dengarkan ayat-ayat Al-Qur`an",
+    "name": "Quran-for-Muslim",
+    "short_name": "Quran",
+    "description": "The Holy Quran is a complete guide for every Muslim",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#fff",
