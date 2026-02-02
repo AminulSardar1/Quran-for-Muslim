@@ -1,7 +1,10 @@
 {
     "version": 2,
-    "buildCommand": "yarn build",
-    "devCommand": "yarn dev",
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install",
+    "outputDirectory": "dist",
+    "framework": "vite",
     "headers": [
         {
             "source": "/(.*)",
