@@ -26,6 +26,12 @@ const SIDBAR_MENU: Array<{ icon: string, label: string, route: string }> = [
     }
 ]
 
+const DOWNLOAD_APP = {
+    icon: "/assets/svg/download.svg",
+    label: "Download App",
+    link: "/Quran_for_Muslim.apk"
+}
+
 export default defineComponent({
     props: {
         fixed: {
@@ -137,6 +143,18 @@ export default defineComponent({
                                 </div>
                             </li>
                         ))}
+                        <li class="menu-link">
+                            <a href={DOWNLOAD_APP.link} download style="text-decoration: none; color: inherit; display: block; width: 100%;">
+                                <div>
+                                    <div class="menu-link-icon">
+                                        <font-awesome-icon icon="download" class="text-secondary" />
+                                    </div>
+                                    <div class="menu-link-text">
+                                        {DOWNLOAD_APP.label}
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <nav ref="navbar" class={[
